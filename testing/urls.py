@@ -16,7 +16,6 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 import sitepages.views
-import sitepages.receivers
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
